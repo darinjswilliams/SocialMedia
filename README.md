@@ -1,1 +1,0 @@
-# SocialMedia App SwiftUI
