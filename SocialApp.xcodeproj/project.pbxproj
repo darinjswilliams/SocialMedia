@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C89970482C8D6C5000CD1D85 /* SocialMediaPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89970472C8D6C5000CD1D85 /* SocialMediaPost.swift */; };
+		C899704A2C8D6D4200CD1D85 /* FavoriteButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89970492C8D6D4200CD1D85 /* FavoriteButtonView.swift */; };
+		C899704C2C8D6E9F00CD1D85 /* PostDescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C899704B2C8D6E9F00CD1D85 /* PostDescriptionView.swift */; };
 		FF0B6E732BE6799700071F16 /* SocialAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0B6E722BE6799700071F16 /* SocialAppApp.swift */; };
 		FF0B6E752BE6799700071F16 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0B6E742BE6799700071F16 /* ContentView.swift */; };
 		FF0B6E772BE6799900071F16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF0B6E762BE6799900071F16 /* Assets.xcassets */; };
@@ -15,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C89970472C8D6C5000CD1D85 /* SocialMediaPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialMediaPost.swift; sourceTree = "<group>"; };
+		C89970492C8D6D4200CD1D85 /* FavoriteButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButtonView.swift; sourceTree = "<group>"; };
+		C899704B2C8D6E9F00CD1D85 /* PostDescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDescriptionView.swift; sourceTree = "<group>"; };
 		FF0B6E6F2BE6799700071F16 /* SocialApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF0B6E722BE6799700071F16 /* SocialAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialAppApp.swift; sourceTree = "<group>"; };
 		FF0B6E742BE6799700071F16 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -54,7 +60,10 @@
 			isa = PBXGroup;
 			children = (
 				FF0B6E722BE6799700071F16 /* SocialAppApp.swift */,
+				C899704B2C8D6E9F00CD1D85 /* PostDescriptionView.swift */,
 				FF0B6E742BE6799700071F16 /* ContentView.swift */,
+				C89970472C8D6C5000CD1D85 /* SocialMediaPost.swift */,
+				C89970492C8D6D4200CD1D85 /* FavoriteButtonView.swift */,
 				FF0B6E802BE67A4D00071F16 /* UserPhotoView.swift */,
 				FF0B6E762BE6799900071F16 /* Assets.xcassets */,
 				FF0B6E782BE6799900071F16 /* Preview Content */,
@@ -141,7 +150,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF0B6E812BE67A4D00071F16 /* UserPhotoView.swift in Sources */,
+				C89970482C8D6C5000CD1D85 /* SocialMediaPost.swift in Sources */,
 				FF0B6E752BE6799700071F16 /* ContentView.swift in Sources */,
+				C899704C2C8D6E9F00CD1D85 /* PostDescriptionView.swift in Sources */,
+				C899704A2C8D6D4200CD1D85 /* FavoriteButtonView.swift in Sources */,
 				FF0B6E732BE6799700071F16 /* SocialAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
